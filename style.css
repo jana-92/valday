@@ -1,0 +1,131 @@
+
+body {
+    font-family: Arial, sans-serif; /* Fallback font family */
+    /* Center-align text */
+    margin: 0; /* Remove default margin */
+    background-color: #FADADD; /* Set background color to light pink */
+}
+
+#container {
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center-align items horizontally */
+    justify-content: center; /* Center-align items vertically */
+    height: 100vh; /* Make the container full viewport height */
+}
+
+#image-container {
+    /* This container will hold the images */
+}
+
+#question {
+    font-family: 'Sacramento', cursive; /* Apply Sacramento font to the question */
+    font-size: 52px; /* Set font size for the question */
+}
+
+#options {
+    margin-top: 20px; /* Add space above the options */
+}
+
+button {
+    padding: 10px 20px; /* Set padding for buttons */
+    margin: 0 10px; /* Set margin around buttons */
+    font-size: 26px; /* Set font size for buttons */
+    font-family: 'varnada', cursive; /* Apply Sacramento font to the options */
+    background-color: #FB607F; /* Set button background color */
+    color: white; /* Set text color to white */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Set cursor to pointer on hover */
+}
+#myButton {
+    display: none;
+}
+#pp{
+    text-align: center;
+    font-family: 'varnada', cursive;
+    color: white;
+    font-size: 36px;
+}
+.spp {
+    font-family: 'varnada', cursive;
+    color: white;
+}
+video {
+    position: absolute;
+      top: 1;
+      right: 0;
+      width: 480px;
+      height: 270px;
+}
+a {
+    color: white;
+}
+a:hover {
+    color:red;
+    text-decoration: underline;
+}
+#bew {
+    padding: 10px 20px; /* Set padding for buttons */
+    margin: 0 10px; /* Set margin around buttons */
+    font-size: 16px; /* Set font size for buttons */
+    font-family: 'varnada', cursive; /* Apply Sacramento font to the options */
+    background-color: #FB607F; /* Set button background color */
+    color: white; /* Set text color to white */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Set cursor to pointer on hover */
+}
+.popup {
+    width: 400px;
+    background:white;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    padding: 0 30 px 30px;
+    visibility: hidden;
+    transition: transform 0.4s,top 0.4s;
+}
+    .open-popup {
+        visibility: visible;
+        top: 50%;
+        transform: translate(-50%,-50%) scale(1);
+    }
+
+.popup {
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30PX 0 10PX;
+}
+.popup button {
+    padding: 10px 20px; /* Set padding for buttons */
+    margin: 0 10px; /* Set margin around buttons */
+    font-size: 16px; /* Set font size for buttons */
+    font-family: 'varnada', cursive; /* Apply Sacramento font to the options */
+    background-color: #FB607F; /* Set button background color */
+    color: white; /* Set text color to white */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Set cursor to pointer on hover */
+}
+.ppp{
+    text-align: right;
+    font-family: 'varnada', cursive;
+    color: white;
+    font-size: 20px; }
+
+    .hhh {
+        text-align: center;
+        font-family: 'varnada', cursive;
+        color: white;
+        font-size: 36px;
+}
+.eee {
+    
+        font-family: 'varnada', cursive;
+        color: white;
+        text-emphasis: left;
+}
+#text-container {
+    text-align: center;
+}

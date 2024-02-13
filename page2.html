@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kisss</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <p id="pp">you're my valentine now:3</p>
+    <p class="eee">we are not done yet, follow these steps please:
+        <ul class="eee">
+            <li>think of me</li>
+            <li>listen to the song *there is a link*</li>
+            <li>make sure that you're playing the song now</li>
+            <li>click the button below</li>
+        </ul>
+    </p>
+    <video src="kiss.MP4" controls></video>
+    <a href="https://open.spotify.com/track/6aka4wYLwW0wH2qjxleJWG?si=oRBrsKYdShuagI_ZStDi-A" target="_blank">sooonngggg</a>
+   <br> <br>
+    <div><button id="bew" onclick="openpopup()" >meow</button>
+    <div class="popup" id="popup" >
+        <h2>warning</h2>
+        <p>متأكد شغلت الأغنية؟</p>
+        <button onclick="closepopup()">لا انا مو شطور</button>
+        <button onclick="location.href='final.html'" target="_blank">ميو</button>
+    </div>
+
+    </div>
+    
+    <script>
+        let popup=document.getElementById("popup");
+
+        function openpopup() {
+            popup.classList.add("open-popup");
+        }
+        function closepopup() {
+            popup.classList.remove("open-popup");
+        }
+
+    </script>
+</body>
+</html>
